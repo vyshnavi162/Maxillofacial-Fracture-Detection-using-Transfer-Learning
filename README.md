@@ -100,9 +100,7 @@ Maxillofacial-Fracture-Detection
 ├── run.bat                  # Script to run the system
 │
 └── README.md
-
----
-
+```
 # 📊 Dataset
 
 The dataset consists of **Computed Tomography (CT) scans of patients with maxillofacial trauma**.
@@ -114,10 +112,9 @@ CT scans showing **maxillofacial fractures**
 
 ### No Fracture
 CT scans showing **no fractures**
+---
 
 ### Dataset Structure
-
-```
 ```
 Dataset
 │
@@ -134,13 +131,13 @@ Dataset
 
 ⚠️ **Dataset is not included in this repository due to GitHub file size limitations.**
 
-```
 # ⚙️ Model Architecture
 
 The system uses **Transfer Learning with a pre-trained CNN**.
 
 ### Workflow
 
+```
 CT Scan Image
       │
       ▼
