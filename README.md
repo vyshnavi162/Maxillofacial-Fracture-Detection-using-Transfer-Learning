@@ -118,6 +118,7 @@ CT scans showing **no fractures**
 ### Dataset Structure
 
 ```
+```
 Dataset
 │
 ├── fracture
@@ -133,15 +134,13 @@ Dataset
 
 ⚠️ **Dataset is not included in this repository due to GitHub file size limitations.**
 
----
-
+```
 # ⚙️ Model Architecture
 
 The system uses **Transfer Learning with a pre-trained CNN**.
 
 ### Workflow
 
-```
 CT Scan Image
       │
       ▼
@@ -161,9 +160,6 @@ Fully Connected Layers
 Binary Classification
 (Fracture / No Fracture)
 ```
-
----
-
 # 🧪 Training Process
 
 Model training includes the following steps:
